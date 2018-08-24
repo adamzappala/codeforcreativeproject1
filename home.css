@@ -1,0 +1,229 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("back.jpeg")
+  }
+#anchortable, .Apple, .Samsung, .Google, .iphone10, .pixel2, .galaxys9, .note9
+ {
+  padding: 10px;
+  border: solid 1px black;
+  background-color: #3D3E3D;
+
+}
+#anchortable{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+#iphone10table, .WebName, .Linkname, .WebName2, .Linkname2{
+  padding: 10px;
+  border: solid 1px black;
+  background-color: #3D3E3D;
+  text-align: center;
+  background-color: #5cb85c;
+}
+
+#iphone10table{
+  border-collapse: collapse;
+  margin-left: 525px;
+}
+#pixel2table, .WebName3, .Linkname3, .WebName4, .Linkname4{
+  padding: 10px;
+  border: solid 1px black;
+  background-color: #3D3E3D;
+  text-align: center;
+  background-color: #5cb85c;
+
+}
+#pixel2table{
+  border-collapse: collapse;
+  margin-left: 525px;
+}
+#galaxys9table, .WebName5, .Linkname5, .WebName6, .Linkname6{
+  padding: 10px;
+  border: solid 1px black;
+  background-color: #3D3E3D;
+  text-align: center;
+  background-color: #5cb85c;
+}
+#galaxys9table{
+  border-collapse: collapse;
+  margin-left: 525px;
+}
+#note9table, .WebName7, .Linkname7, .WebName8, .Linkname8{
+  padding: 10px;
+  border: solid 1px black;
+  background-color: #3D3E3D;
+  text-align: center;
+  background-color: #5cb85c;
+}
+#note9table{
+  border-collapse: collapse;
+  margin-left: 525px;
+}
+.iphone10parent{
+  display: flex;
+    overflow: hidden;
+    margin: 1em 0;
+    color: #fff;
+    border: 1px solid #333;
+    align-items: center;
+}
+.iphone10img{
+  width: 300px;
+  padding: 1em;
+    background-color: #337ab7;
+    text-align: left;
+}
+.pixel2parent{
+  display: flex;
+    overflow: hidden;
+    margin: 1em 0;
+    color: #fff;
+    border: 1px solid #333;
+    align-items: center;
+}
+.pixel2img{
+  width: 300px;
+  padding: 1em;
+    background-color: #337ab7;
+    text-align: left;
+}
+.galaxys9parent{
+  display: flex;
+    overflow: hidden;
+    margin: 1em 0;
+    color: #fff;
+    border: 1px solid #333;
+    align-items: center;
+}
+.galaxys9img{
+  width: 300px;
+  padding: 1em;
+    background-color: #337ab7;
+    text-align: left;
+}
+.note9parent{
+  display: flex;
+    overflow: hidden;
+    margin: 1em 0;
+    color: #fff;
+    border: 1px solid #333;
+    align-items: center;
+}
+.note9img{
+  width: 300px;
+  padding: 1em;
+    background-color: #337ab7;
+    text-align: left;
+}
+.iphone10par{
+  margin-left: 450px;
+  font-weight: bolder;
+  font-size: 40px;
+  position: relative;
+  color: white;
+}
+.pixel2par{
+  margin-left: 450px;
+  font-weight: bolder;
+  font-size: 40px;
+  position: relative;
+  color: white;
+
+}
+.galaxys9par{
+  margin-left: 450px;
+  font-weight: bolder;
+  font-size: 40px;
+  position: relative;
+  color: white;
+
+}
+.note9par{
+  margin-left: 450px;
+  font-weight: bolder;
+  font-size: 40px;
+  position: relative;
+  color: white;
+
+}
+.aboutus{
+  border: 1px solid #3D3E3D;
+  background-color: #3D3E3D;
+  padding: 5px;
+  box-shadow: 5px 10px 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style-position: inside;
+}
+.cool{
+  text-align: center;
+  border: 1px solid #3D3E3D;
+  background-color: #3D3E3D;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 550px;
+  box-shadow: 5px 10px 5px;
+}
+.cool1{
+  text-align: center;
+  border: 1px solid #3D3E3D;
+  background-color: #3D3E3D;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 520px;
+  box-shadow: 5px 10px 5px;
+}
+.welcomeimg{
+  width: 100%;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
