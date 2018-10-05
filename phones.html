@@ -1,143 +1,177 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity=
+  "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="home.js"></script>
   <link rel="stylesheet" type="text/css" href="home.css">
-<body>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="/index.html">Home</a>
-    <a href="/phones.html">Phone Reviews</a>
-    <a href="/about.html">About</a>
-    <a href="/contact.html">Contact</a>
-  </div>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f06c6d;">
+      <a class="navbar-brand" href="/index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/phones.html">Phone Reviews<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+      <h1 class="headmain"> Phone Reviews </h1>
+    </div>
+    <div class="tofc">
+      <table>
+        <tr>
+          <th> Apple </th>
+          <th>Google</th>
+          <th>Samsung</th>
+        </tr>
+        <tr>
+          <td> <a href="#iphone10">iPhone 10</a></td>
+          <td><a href="#pixel2">Google Pixel 2</a></td>
+          <td> <a href="#galaxys9">Galaxy S9</a></td>
+        </tr>
+        <tr>
+          <td> Coming Soon!</td>
+          <td> Coming Soon!</td>
+          <td> <a href="#note9">Galaxy Note 9 </a> </td>
+        </tr>
+      </table>
+    </div>
 
-  <div id="main">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-  </div>
-  <div>
-    <h1 class="headmain"> Phone Reviews </h1>
-</div>
-<div class="tofc">
-  <table>
-    <tr>
-      <th> Apple </th>
-      <th>Google</th>
-      <th>Samsung</th>
-    </tr>
-    <tr>
-    <td> <a href="#iphone10">iPhone 10</a></td>
-    <td><a href="#pixel2">Google Pixel 2</a></td>
-    <td> <a href="#galaxys9">Galaxy S9</a></td>
-    </tr>
-    <tr>
-    <td> Coming Soon!</td>
-    <td> Coming Soon!</td>
-    <td> <a href="#note9">Galaxy Note 9 </a> </td>
-    </tr>
-  </table>
-</div>
 
-<h1><a id="iphone10"></a>iPhone 10</h1>
-<div class="colparent">
-<div>
-<img class="reviewimg" src="
-https://www.att.com/catalog/en/skus/Apple/Apple%20iPhone%20X/overview/326743-pdp-iphoneX-s2-1@2x.jpg">
-</div>
-<div class="review" style= "height: 50%;">
-<p>Best iPhone 10 Reviews!</p>
-  <table>
-  <tr>
-    <th>Website's Name & Link to Review</th>
-  </tr>
-  <tr>
-    <td><a href="https://www.digitaltrends.com/cell-phone-reviews/apple-iphone-x-review/" target="_blank">Digital Trends</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.trustedreviews.com/reviews/iphone-x" target="_blank">Trusted Reviews</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.lifewire.com/iphone-x-4150706" target="_blank">Life Wire</a></td>
-  </tr>
-  </table>
-</div>
-</div>
+    <div class="row">
+      <div class="col, mx-auto">
+        <h1><a id="iphone10"></a>iPhone 10</h1>
+        <div class="colparent">
+          <div>
+            <img class="reviewimg" src="
+            https://www.att.com/catalog/en/skus/Apple/Apple%20iPhone%20X/overview/326743-pdp-iphoneX-s2-1@2x.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="col, mx-auto">
+        <div class="review">
+          <p>Best iPhone 10 Reviews!</p>
+          <table>
+            <tr>
+              <th>Website's Name & Link to Review</th>
+            </tr>
+            <tr>
+              <td><a href="https://www.digitaltrends.com/cell-phone-reviews/apple-iphone-x-review/" target="_blank">Digital Trends</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.trustedreviews.com/reviews/iphone-x" target="_blank">Trusted Reviews</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.lifewire.com/iphone-x-4150706" target="_blank">Life Wire</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
 
-<h1><a id="pixel2"></a>Google Pixel 2</h1>
-<div class="colparent">
-<div>
-<img class="reviewimg" src="
-https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2017/10/pixel-2-xl-front-leak.jpg?itok=78xPaEfw">
-</div>
-<div class="review" style= "height: 50%;">
-<p>Best Pixel 2 Reviews!</p>
-<table>
-<tr>
-  <th>Website's Name & Link to Review</th>
-</tr>
-<tr>
-  <td><a href="https://www.digitaltrends.com/cell-phone-reviews/google-pixel-2-review/" target="_blank">Digital Trends</a></td>
-</tr>
-<tr>
-  <td><a href="https://www.trustedreviews.com/reviews/google-pixel-2-performance-and-software" target="_blank">Trusted Reviews</a></td>
-</tr>
-<tr>
-  <td><a href="https://www.lifewire.com/google-pixel-phones-4152056" target="_blank">Life Wire</a></td>
-</tr>
-</table>
-</div>
-</div>
+    <div class="row">
+      <div class="col, mx-auto">
+        <h1><a id="pixel2"></a>Google Pixel 2</h1>
+        <div class="colparent">
+          <div>
+            <img class="reviewimg" src="
+            https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2017/10/pixel-2-xl-front-leak.jpg?itok=78xPaEfw">
+          </div>
+        </div>
+      </div>
+      <div class="col, mx-auto">
+        <div class="review">
+          <p>Best Pixel 2 Reviews!</p>
+          <table>
+            <tr>
+              <th>Website's Name & Link to Review</th>
+            </tr>
+            <tr>
+              <td><a href="https://www.digitaltrends.com/cell-phone-reviews/google-pixel-2-review/" target="_blank">Digital Trends</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.trustedreviews.com/reviews/google-pixel-2-performance-and-software" target="_blank">Trusted Reviews</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.lifewire.com/google-pixel-phones-4152056" target="_blank">Life Wire</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
 
-<h1><a id="galaxys9"></a>Galaxy S9</h1>
-<div class= "colparent">
-<div>
-<img class="reviewimg" src="
-https://s7d2.scene7.com/is/image/SamsungUS/US_ANS_MOB_PH_Oreo-2018-Apps-Widgets-1-1?$default-high-resolution-jpg$">
-</div>
-<div class="review" style= "height: 50%;">
-<p>Best Galaxy S9 Reviews!</p>
-<table>
-<tr>
-  <th>Website's Name & Link to Review</th>
-</tr>
-<tr>
-  <td><a href="https://www.digitaltrends.com/cell-phone-reviews/samsung-galaxy-s9-review/" target="_blank">Digital Trends</a></td>
-</tr>
-<tr>
-  <td><a href="https://www.trustedreviews.com/reviews/samsung-galaxy-s9" target="_blank">Trusted Reviews</a></td>
-</tr>
-<tr>
-  <td><a href="https://www.lifewire.com/samsung-galaxy-s-phones-4156903" target="_blank">Life Wire</a></td>
-</tr>
-</table>
-</div>
-</div>
+    <div class="row">
+      <div class="col, mx-auto">
+        <h1><a id="galaxys9"></a>Galaxy S9</h1>
+        <div class= "colparent">
+          <div>
+            <img class="reviewimg" src="
+            https://s7d2.scene7.com/is/image/SamsungUS/US_ANS_MOB_PH_Oreo-2018-Apps-Widgets-1-1?$default-high-resolution-jpg$">
+          </div>
+        </div>
+      </div>
+      <div class="col, mx-auto">
+        <div class="review" style= "height: 50%;">
+          <p>Best Galaxy S9 Reviews!</p>
+          <table>
+            <tr>
+              <th>Website's Name & Link to Review</th>
+            </tr>
+            <tr>
+              <td><a href="https://www.digitaltrends.com/cell-phone-reviews/samsung-galaxy-s9-review/" target="_blank">Digital Trends</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.trustedreviews.com/reviews/samsung-galaxy-s9" target="_blank">Trusted Reviews</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.lifewire.com/samsung-galaxy-s-phones-4156903" target="_blank">Life Wire</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
 
-<h1><a id="note9"></a>Galaxy Note 9</h1>
-<div class="colparent">
-<div>
-<img class="reviewimg" src="
-https://i-cdn.phonearena.com/images/phones/72789-xlarge/Samsung-Galaxy-Note-9-7.jpg">
-</div>
-<div  class="review" style= "height: 50%;">
-<p>Best Galaxy Note 9 Reviews!</p>
-<table>
-<tr>
-  <th>Website's Name & Link to Review</th>
-</tr>
-<tr>
-  <td><a href="https://www.digitaltrends.com/cell-phone-reviews/samsung-galaxy-note-9-review/" target="_blank">Digital Trends</a></td>
-</tr>
-<tr>
-  <td><a href="https://www.trustedreviews.com/reviews/samsung-galaxy-note-9" target="_blank">Trusted Reviews</a></td>
-</tr>
-<tr>
-  <td><a href="https://www.techradar.com/reviews/samsung-galaxy-note-9-review" target="_blank">Tech Radar</a></td>
-</tr>
-</table>
-</div>
-</div>
-</body>
+    <div class="row">
+      <div class="col, mx-auto">
+        <h1><a id="note9"></a>Galaxy Note 9</h1>
+        <div>
+          <img class="reviewimg" src="
+          https://i-cdn.phonearena.com/images/phones/72789-xlarge/Samsung-Galaxy-Note-9-7.jpg">
+        </div>
+      </div>
+      <div class="col, mx-auto">
+        <div  class="review" style= "height: 50%;">
+          <p>Best Galaxy Note 9 Reviews!</p>
+          <table>
+            <tr>
+              <th>Website's Name & Link to Review</th>
+            </tr>
+            <tr>
+              <td><a href="https://www.digitaltrends.com/cell-phone-reviews/samsung-galaxy-note-9-review/" target="_blank">Digital Trends</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.trustedreviews.com/reviews/samsung-galaxy-note-9" target="_blank">Trusted Reviews</a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.techradar.com/reviews/samsung-galaxy-note-9-review" target="_blank">Tech Radar</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
 </head>
 </html>

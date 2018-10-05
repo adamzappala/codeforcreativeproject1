@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity=
+  "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="home.js"></script>
+
   <link rel="stylesheet" type="text/css" href="home.css">
-<body>
-
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="/index.html">Home</a>
-    <a href="/phones.html">Phone Reviews</a>
-    <a href="/about.html">About</a>
-    <a href="/contact.html">Contact</a>
-  </div>
-
-
-  <div id="main">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-  </div>
-  <div>
-    <h1 class="headmain"> Contact Me </h1>
-  </div>
-
-  <div class="conparent">
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f06c6d;">
+      <a class="navbar-brand" href="/index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/phones.html">Phone Reviews<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div>
-      <img class="contactimg" src="contact.jpg">
+      <h1 class="headmain"> Contact Me </h1>
     </div>
-    <div class="contact">
-    <h2> Contact Info: </h2>
-  <p>
-    Name: Adam Zappala
-    <p> Email: orangecougar@gmail.com </p>
-  </p>
-</div>
+    <div class="row">
+      <div class="col, mx-auto">
+    <div class="conparent">
+      <div>
+        <img class="contactimg" src="contact.jpg">
+      </div>
+    </div>
   </div>
+  <div class="col, mx-auto">
+      <div class="contact">
+        <h2> Contact Info: </h2>
+        <p>
+          Name: Adam Zappala
+          <p> Email: orangecougar@gmail.com </p>
+        </p>
+      </div>
+    </div>
+    </div>
 
-</body>
+  </body>
 </head>
 </html>
